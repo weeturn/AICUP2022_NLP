@@ -1,10 +1,11 @@
 # AICUP 2022 NLP - Final solution (First Prize)
-The natural language explanatory sequence labeling contest of the AICUP 2022 competition.
-Find out more information and download data here: https://tbrain.trendmicro.com.tw/Competitions/Details/26
+The natural language explanatory sequence labeling contest of the AICUP 2022 competition.<br />
+Find out more information and download the data here: https://tbrain.trendmicro.com.tw/Competitions/Details/26<br />
+We are very honored to have won the first prize in the competition with this solution.
 ## Overview
 Our final solution is based on a question-answering framework.<br />
-We trained models for q' and r' respectively and find the best model pair for submission.
-
+We trained models for q' and r' respectively and find the best model pair for submission.<br />
+We've also tried different solutions, check it here: https://github.com/Brian-Ckwu/aicup-2022-nlp
 ## How to run
 ### Preprocess
 Run cells of **Initialization**, **Functions**, **Tokenizer**
@@ -20,10 +21,10 @@ Run cells of **Predict Answer from model checkpoints**<br />
 Remember to set <code>real_predict_test = 1</code>
 
 ## Environment
-### OS : Ubuntu 20.04<br />
-### Language : Python 3.8.13<br />
-### Environment management system : conda<br />
-### Packages : PyTorch 1.13.0, Huggingface transformers 4.24.0, nltk 3.7, sklearn 1.1.3<br />
+#### OS : Ubuntu 20.04<br />
+#### Language : Python 3.8.13<br />
+#### Environment management system : conda<br />
+#### Packages : PyTorch 1.13.0, Huggingface transformers 4.24.0, nltk 3.7, sklearn 1.1.3<br />
 
 ## Acknowledgement
 We used pretrained-model from: <https://huggingface.co/janeel/muppet-roberta-base-finetuned-squad/><br />
