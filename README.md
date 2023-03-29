@@ -1,7 +1,6 @@
 # AICUP 2022 NLP - Final solution (First Prize)
 The natural language explanatory sequence labeling contest of the AICUP 2022 competition.<br />
-Find out more information and download the data here: https://tbrain.trendmicro.com.tw/Competitions/Details/26<br />
-We are very honored to have won the first prize in the competition with this solution.
+Find out more information and download the data here: https://tbrain.trendmicro.com.tw/Competitions/Details/26
 ## Overview
 Our final solution is based on a question-answering framework.<br />
 We trained models for q' and r' respectively and find the best model pair for submission.<br />
